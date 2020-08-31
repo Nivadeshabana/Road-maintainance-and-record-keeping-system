@@ -1,0 +1,195 @@
+.logo img{
+    width: 15%;
+    float:left;
+    height: 20%;
+    position: absolute;
+   
+}
+.head{
+  
+   margin-top: 2%;
+    margin-left: 16%;
+   float: left;
+   
+   
+}
+h1{
+    color: black;
+}
+.header head{
+    display: inline-block;
+   
+}
+
+.navbar{
+    padding-top: 1px;
+/*    margin-top:10px;*/
+}
+
+
+
+ .navbar nav{
+    background-color:grey;
+    height: 10%;
+    width: 100%;
+    position:center;
+    text-align: center;
+    margin-top: 10%;
+}
+.navbar nav ul{
+   float: left;
+    margin-right: 20px;
+}
+.navbar nav ul li{
+   display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+.navbar nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a:hover{
+    background: red;
+   transition: .5s;
+}
+.sub_menu{
+    display:none;
+    margin-top: none;
+}
+.navbar ul li:hover .sub_menu{
+    display: block;
+    position: absolute;
+    background-color: grey;
+    margin-top: 0px;
+    margin-left: .5px;
+    height: 25%;
+    width: 18%;
+    text-align: left;
+    
+}
+.navbar ul li:hover .sub_menu ul{
+    display: block;
+    
+}
+
+
+
+.imgInside_block{
+    padding-top: 0px;
+   border: 1px solid white;
+   
+  
+}
+.img_center{
+    margin-top: 20px;
+    height:50%;
+    width: 40%;
+    position: center;
+    margin-left: 5px;
+}
+.img_center .img_text{
+    position: inherit;
+    margin-top: 0px;
+}
+.img_text{
+    position:absolute;
+    
+    left:16px;}
+.middle_bar{
+    display: flex;
+}
+.notification{
+    width: 80%;
+    border: 1px solid black;
+    margin-left: 2%;
+    margin-top: 20px;
+  
+
+
+}
+.notification h1{
+     text-align: left;
+    color: black;
+    margin-left: 0px;
+    background-color: lightgrey;
+    width: 96.2%;
+    height: 39px;
+    margin-top: 0px;
+    font-size: 25px;
+   padding: 15px;
+}
+.notification nav{
+    background-color: lightgrey;
+    width: 59.29%;
+    height: 10%;
+    margin-top: 0%;
+    position: absolute;
+}
+.img_center1{
+    margin-top: 30px;
+    margin-left: 4px;
+  }
+.Achievement{
+    width: 30%;
+    margin-left: 1.2%;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.Achievement h1{
+  
+    text-align: left;
+    color: black;
+    margin-left: 0px;
+    background-color: lightgrey;
+    width: 91%;
+    height: 39px;
+    margin-top: 0px;
+    font-size: 25px;
+   padding: 15px;
+  
+}
+
+
+
+.quick_Link{
+    width: 40%;
+    
+    border: 1px solid black;
+   margin-left: 2%;
+     margin-top: 20px;
+}
+
+.quick_Link h1{
+    
+    text-align: left;
+    color: black;
+    margin-left: 0px;
+    background-color: lightgrey;
+    width: 93.1%;
+    height: 39px;
+    margin-top: 0px;
+    font-size: 25px;
+   padding: 15px;
+  
+}
+.footer{
+    margin-top: 10%;
+    height: 50px;
+    width: 100%;
+    
+    background-color: gray;
+}
+.footer p{
+    font-size: 20px;
+    text-align: left;
+   color:white;
+    
+}
+
+.lower_bar{
+    display: flex;
+}
